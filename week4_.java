@@ -120,7 +120,7 @@ import java.util.Scanner;
         less than 50 or equal to 50.
         The program should also display the average of all numbers greater than 50 
         and the average of all numbers less than 50.*/
-public class week4_ { 
+/*public class week4_ { 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int countGreaterThan50 = 0;
@@ -148,13 +148,14 @@ public class week4_ {
         System.out.println("Number of inputs equal to 50: " + countEqualTo50);
         System.out.println("Average of inputs greater than 50: " + avgGreaterThan50);
         System.out.println("Average of inputs less than 50: " + avgLessThan50);
-    }
+    }*/
 
     /*10. Write a program that asks the user for a positive nonzero integer value. 
     The program should use a loop to get the sum of all the integers from 1 up to the number entered.
      For example, if the user enters 50, the loop will find the sum of 1+2+3+4+….+50.*/
     
-    
+    public class week4_ { 
+    public static void main(String[] args) {
     
             Scanner scanner = new Scanner(System.in);
             System.out.println("Please enter a positive nonzero integer value:");
